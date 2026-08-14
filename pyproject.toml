@@ -4,10 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aniquotes"
-version = "0.1.1"
+version = "0.1.2"
 description = "A lightweight Python package to generate and search 14,667 anime quotes from popular characters and shows."
 readme = "README.md"
-license = { text = "Unlicense" }
 keywords = ["anime", "quotes", "anime-quotes", "otaku", "manga"]
 classifiers = [
     "Programming Language :: Python :: 3",
