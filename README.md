@@ -1,6 +1,6 @@
 # aniquotes
 
-A lightweight, zero-dependency Python package to generate, search, and filter **14,667** anime quotes from **3,782** characters across **1,580** anime shows.
+A lightweight, zero dependency Python package to generate, search, and filter **14,667** anime quotes from **3,782** characters across **1,580** anime shows.
 
 ## Installation
 
@@ -102,4 +102,4 @@ first_quote = QUOTES[0]
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under [The Unlicense](LICENSE).
