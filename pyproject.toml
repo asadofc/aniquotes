@@ -16,8 +16,12 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/asadofc/Aniquotes"
-Repository = "https://github.com/asadofc/Aniquotes"
+Homepage = "https://github.com/asadofc/aniquotes"
+Repository = "https://github.com/asadofc/aniquotes"
 
 [tool.hatch.build.targets.wheel]
 packages = ["aniquotes"]
+core-metadata-version = "2.1"
+
+[tool.hatch.build.targets.sdist]
+core-metadata-version = "2.1"
