@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aniquotes"
+version = "0.1.0"
+description = "A lightweight Python package to generate and search 14,667 anime quotes from popular characters and shows."
+readme = "README.md"
+license = "MIT"
+keywords = ["anime", "quotes", "anime-quotes", "otaku", "manga"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/asadofc/Aniquotes"
+Repository = "https://github.com/asadofc/Aniquotes"
+
+[tool.hatch.build.targets.wheel]
+packages = ["aniquotes"]
