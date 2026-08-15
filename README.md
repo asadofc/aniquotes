@@ -1,6 +1,6 @@
 # aniquotes
 
-A lightweight, zero dependency Python package to generate, search, and filter **14,667** anime quotes from **3,782** characters across **1,580** anime shows.
+A lightweight, zero dependency Python package to generate, search, and filter **13,438** anime quotes from **3,565** characters across **1,522** anime shows.
 
 ## Installation
 
@@ -78,10 +78,10 @@ from aniquotes import getCharacters, getShows, getTotalCount
 # Total count of quotes in database
 print(getTotalCount())
 
-# List all 1,580 unique anime shows
+# List all 1,522 unique anime shows
 shows = getShows()
 
-# List all 3,782 unique characters
+# List all 3,565 unique characters
 all_characters = getCharacters()
 
 # List characters from a specific show
